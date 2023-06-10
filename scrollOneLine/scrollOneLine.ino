@@ -51,7 +51,7 @@ void loop() {
   lcd.setCursor(0, 1);
   lcd.print(line2);
   delay(300);
-  lcd.clear();
+  //lcd.clear();
   if(stringStart == 0 && scrollCursor > 0){
     scrollCursor--;
     stringStop++;
